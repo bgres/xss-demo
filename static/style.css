@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fff;
+    color: #777;
+    line-height: 1;
+    margin: 0;
+}
+
+body, input {
+    color: #303030;
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #25383B;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0 0 1em 0;
+}
+
+p {
+    margin: 0 0 2em 0;
+}
+
+header {
+    background: #1E2832 url("/static/title_background.jpg") fixed;
+    color: rgba(255, 255, 255, 0.75);
+    padding: 2em 0 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
+header p {
+    color: #fff;
+    margin: 0 0 1.5em 0;
+    text-transform: uppercase;
+}
+
+div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    padding: 10px;
+}
+
+form {
+    margin: 0 0 2em 0;
+    text-align: center;
+}
+
+input[type="text"] {
+    background-color: rgba(144, 144, 144, 0.075);
+    border: 1px solid rgba(144, 144, 144, 0.25);
+    border-radius: 4px;
+    color: inherit;
+    display: block;
+    height: 3.5em;
+    outline: 0;
+    padding: 0 1em;
+    text-decoration: none;
+    width: 100%;
+}
+
+input[type="text"]:focus {
+    border-color: #51BAA4;
+    box-shadow: 0 0 0 1px #51BAA4;
+}
+
+input[type="submit"] {
+    background-color: rgba(98, 191, 142, 0.47);
+    border: 0;
+    border-radius: 2.5em;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    height: 2.85em;
+    line-height: 2.95em;
+    margin: 5px 15px;
+    min-width: 10em;
+    padding: 0 1.5em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    white-space: nowrap;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(86, 241, 125, 0.47);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
