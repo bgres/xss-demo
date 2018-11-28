@@ -1,6 +1,8 @@
 # xss-demo
 Minimal flask-powered python web app to demonstrate reflected and stored XSS attacks.
 
+![XSS Demo Screenshot](xss-demo-screenshot.png "XSS Demo Screenshot")
+
 # Quickstart
 
 * Clone this repository.
