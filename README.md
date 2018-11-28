@@ -1,5 +1,6 @@
 # xss-demo
-Minimal flask-powered python web app to demonstrate reflected and stored XSS attacks.
+Minimal, flask-powered python web app to demonstrate reflected and stored XSS attacks.
+Less than 30 lines of Python + 40 lines HTML template.
 
 ![XSS Demo Screenshot](xss-demo-screenshot.png "XSS Demo Screenshot")
 
