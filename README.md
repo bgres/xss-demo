@@ -41,7 +41,7 @@ tooltip onmouseover=alert(1)
 
 Of course you should never deactivate autoescaping in jinja/flask, so you should never have 
 `{% autoescape false %}` in your production templates. This way you will always get the 
-[standard HTML context filtering](http://flask.pocoo.org/docs/0.12/templating/#controlling-autoescaping)
+[standard HTML context filtering](https://flask.palletsprojects.com/en/1.1.x/templating/#controlling-autoescaping)
 for variables in your templates.
 
 
